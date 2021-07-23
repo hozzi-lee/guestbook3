@@ -37,7 +37,7 @@ public class GuestController {
 	
 	// deleteForm
 	@RequestMapping(value = "/deleteForm", method = { RequestMethod.GET, RequestMethod.POST })
-	public String deleteForm(@RequestParam("no") int no) {
+	public String deleteForm() {
 
 		return "/WEB-INF/views/deleteForm.jsp";
 	}
